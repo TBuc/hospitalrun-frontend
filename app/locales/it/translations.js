@@ -1,19 +1,19 @@
 export default {
   admin: {
     address: {
-      address1Label: '',
-      address2Label: '',
-      address3Label: '',
-      address4Label: '',
-      addressLabel: '',
-      editTitle: '',
+      address1Label: 'Etichetta dell\' indirizzo 1',
+      address2Label: 'Etichetta dell\' indirizzo 2',
+      address3Label: 'Etichetta dell\' indirizzo 3',
+      address4Label: 'Etichetta dell\' indirizzo 4',
+      addressLabel: 'Indirizzo',
+      editTitle: 'Opzioni indirizzo',
       include1Label: '',
       include2Label: '',
       include3Label: '',
       include4Label: '',
       messages: { addressSaved: '' },
-      newTitle: '',
-      titles: { optionsSaved: '' }
+      newTitle: 'Opzioni Indirizzo',
+      titles: { optionsSaved: 'Opzioni Salvate' }
     },
     addressOptions: '',
     customForms: {
@@ -197,7 +197,7 @@ export default {
         medication: '',
         overrideInvoice: '',
         patientReports: '',
-        patients: '',
+        patients: 'Pazienti',
         pricing: '',
         updateConfig: '',
         visits: ''
@@ -205,8 +205,8 @@ export default {
       messages: { roleSaved: '' },
       titles: { roleSaved: '' }
     },
-    userRoles: '',
-    users: '',
+    userRoles: 'Ruoli Utenti',
+    users: 'Utenti',
     visitForms: {
       labels: {
         followup: '',
@@ -239,22 +239,22 @@ export default {
   allergies: {
     buttons: { addAllergy: '' },
     labels: {
-      allergyName: '',
-      patientAllergy: ''
+      allergyName: 'Nome',
+      patientAllergy: 'Allergie del paziente'
     },
     titles: {
-      addAllergy: '',
-      editAllergy: ''
+      addAllergy: 'Aggiungi allergia',
+      editAllergy: 'Modifica allergia'
     }
   },
   application: {
-    messages: { sessionExpired: '' },
-    titles: { sessionExpired: '' }
+    messages: { sessionExpired: 'La tua sessione è scaduta. Riaccedi per continuare.' },
+    titles: { sessionExpired: 'Sessione Scaduta' }
   },
   appointments: {
     buttons: {
-      newButton: '',
-      scheduleSurgery: ''
+      newButton: '+ nuovo appuntamento',
+      scheduleSurgery: '+ pianifica intervento'		// TODO disambiguate: 'Intervento' or 'Visita'? See https://www.collinsdictionary.com/dictionary/english-italian/surgery
     },
     calendarTitle: '',
     currentScreenTitle: '',
@@ -1163,42 +1163,42 @@ export default {
       scheduleSurgery: ''
     },
     labels: {
-      admissionDate: '',
+      admissionDate: 'Data di ammissione',
       admit: '',
-      bloodType: '',
-      caption: '',
-      civilStatus: '',
+      bloodType: 'Gruppo sanguigno',
+      caption: 'Intestazione',
+      civilStatus: 'Stato civile',
       clinic: '',
-      contacts: '',
-      cost: '',
-      dateOfBirth: '',
+      contacts: 'Contatti',
+      cost: 'Costo',
+      dateOfBirth: 'Data di nascita',
       dateProcessed: '',
       dischargeDate: '',
-      dob: '',
-      education: '',
-      email: '',
-      externalPatientId: '',
-      firstName: '',
-      income: '',
-      insurance: '',
-      lastName: '',
-      middleName: '',
-      monthlyCost: '',
-      occupation: '',
-      operativePlan: '',
-      parent: '',
+      dob: 'DDN',
+      education: 'Grado di istruzione',
+      email: 'Email',
+      externalPatientId: 'Id esterno del paziente',
+      firstName: 'Nome',
+      income: 'Reddito',
+      insurance: 'Assicurazione',
+      lastName: 'Cognome',
+      middleName: 'Secondo nome',
+      monthlyCost: 'Costo mensile',
+      occupation: 'Occupazione',
+      operativePlan: 'Piano operativo',
+      parent: 'Genitore/Tutore',
       patientDays: '',
-      patientType: '',
-      patientTypeCharity: '',
-      patientTypePrivate: '',
-      phone: '',
-      placeOfBirth: '',
-      primaryDiagnosis: '',
+      patientType: 'Tipo di paziente',
+      patientTypeCharity: 'Associazione benefica',
+      patientTypePrivate: 'Privato',
+      phone: 'Telefono',
+      placeOfBirth: 'Luogo di nascita',
+      primaryDiagnosis: 'Diagnosi primaria',  // TODO check why it's plural in the English version
       referredBy: '',
       referredDate: '',
       relationship: '',
       relationships: '',
-      religion: '',
+      religion: 'Religione',
       secondaryDiagnosis: '',
       sex: '',
       sexNotEntered: '',
@@ -1216,30 +1216,30 @@ export default {
       savedPatient: ''
     },
     navigation: {
-      appointments: '',
+      appointments: 'Appuntamenti',
       general: '',
       history: '',
       imaging: '',
       labs: '',
       medication: '',
-      photos: '',
+      photos: 'Fotografie',
       socialWork: '',
       visits: ''
     },
     notes: {
       newNote: '',
-      onBehalfOfCopy: '',
-      onBehalfOfLabel: '',
+      onBehalfOfCopy: 'per conto di',
+      onBehalfOfLabel: 'Per Conto Di',
       pleaseSelectAVisit: '',
       updateNote: ''
     },
     titles: {
-      addContact: '',
-      addPhoto: '',
-      additionalContacts: '',
-      admissionsDetail: '',
-      admissionsSummary: '',
-      admittedPatients: '',
+      addContact: 'Aggiungi contatto',
+      addPhoto: 'Aggiungi fotografia',
+      additionalContacts: 'Altri contatti',
+      admissionsDetail: 'Dettaglio delle ammissioni',
+      admissionsSummary: 'Riepilogo delle ammissioni',
+      admittedPatients: 'Pazienti ammessi',
       'delete': '',
       deleteContact: '',
       deleteExpense: '',
