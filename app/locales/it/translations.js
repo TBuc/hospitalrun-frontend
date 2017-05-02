@@ -863,8 +863,8 @@ export default {
     startTime: '',
     status: 'Stato',
     takenBy: '',
-    to: '',
-    total: '',
+    to: 'A',
+    total: 'Totale',
     type: '',
     userCanAddNewValue: '',
     username: '',
@@ -875,23 +875,23 @@ export default {
   },
   labs: {
     alerts: {
-      requestCompletedMessage: '',
-      requestCompletedTitle: '',
-      requestSavedMessage: '',
-      requestSavedTitle: ''
+      requestCompletedMessage: 'La richiesta di esame di laboratorio è stata completata.',
+      requestCompletedTitle: 'Richiesta di esame di laboratorio completata.',
+      requestSavedMessage: 'La richiesta di esame di laboratorio è stata salvata.',
+      requestSavedTitle: 'Richiesta di esame di laboratorio salvata.'
     },
-    buttons: { newButton: '' },
-    completedTitle: '',
-    deleteTitle: '',
-    editTitle: '',
+    buttons: { newButton: '+ nuovo esame di laboratorio' },
+    completedTitle: 'Esami di Laboratorio Completati',
+    deleteTitle: 'Cancella Richiesta',
+    editTitle: 'Modifica Richiesta di Esame di Laboratorio',
     labels: {
       addNewVisit: '',
       labType: ''
     },
     messages: {
       createNewRecord: '',
-      noCompleted: '',
-      noItemsFound: ''
+      noCompleted: 'Nessun elemento completato trovato.',
+      noItemsFound: 'Nessun Esame di Laboratorio trovato.'
     },
     newTitle: 'Nuova Richiesta di Esame di Laboratorio',
     requestsTitle: 'Richieste di Esami di Laboratorio',
@@ -961,24 +961,24 @@ export default {
     }
   },
   messages: {
-    createNewRecord: '?',
-    createNewUser: '',
-    'delete': '',
-    delete_plural: '',
-    delete_singular: '',
-    forAuthorizedPersons: '',
-    newPatientHasToBeCreated: '',
-    noHistoryAvailable: '',
-    noItemsFound: '',
-    noNotesAvailable: '',
-    noUsersFound: '',
-    onBehalfOf: '',
+    createNewRecord: 'Creare una nuova voce?',
+    createNewUser: 'Creare un nuovo utente?',
+    'delete': 'Sei sicuro/a di voler cancellare {{name}}?',
+    delete_plural: 'Sei sicuro/a di voler cancellare questi/e {{name}}?',
+    delete_singular: 'Sei sicuro/a di voler cancellare questo/a {{name}}?',
+    forAuthorizedPersons: 'Questo Rapporto è solamente per persone autorizzate.',
+    newPatientHasToBeCreated: 'Deve essere creato un nuovo paziente...Attendere prego..',
+    noHistoryAvailable: 'Nessuna cronologia disponibile.',
+    noItemsFound: 'Nessun elemento trovato.',
+    noNotesAvailable: 'Non vi sono ulteriori note cliniche disponibili per questa visita.',
+    noUsersFound: 'Nessun utente trovato.',
+    onBehalfOf: 'per conto di',
     reportError: '',
     requiredFieldsCorrectErrors: '',
-    saveActionException: '',
-    sorry: '',
-    userHasBeenSaved: '',
-    userSaved: ''
+    saveActionException: 'Si è verificato un errore tentando di salvare: {{message}}',
+    sorry: 'Ci dispiace, qualcosa è andato storto...',
+    userHasBeenSaved: 'L\'utente è stato salvato.',
+    userSaved: 'Utente Salvato'
   },
   models: {
     appointment: {
@@ -1136,11 +1136,11 @@ export default {
       surgeon: 'Chirurgo',
       surgeryDate: 'Data Intervento'
     },
-    messages: { reportSaved: '' },
+    messages: { reportSaved: 'Il rapporto dell\'intervento è stato salvato.' },
     titles: {
-      editTitle: '',
-      newTitle: '',
-      reportSaved: ''
+      editTitle: 'Modifica Rapporto d\'Intervento',
+      newTitle: 'Nuovo Rapporto d\'Intervento',
+      reportSaved: 'Rapporto Salvato'
     }
   },
   operativePlan: {
