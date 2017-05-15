@@ -65,26 +65,26 @@ export default {
       }
     },
     header: {
-      editTitle: '',
-      facilityName: '',
-      headerLabel: '',
-      headerLine1: '',
-      headerLine2: '',
-      headerLine3: '',
-      logoURL: '',
-      messages: { headerSaved: '' },
-      newTitle: '',
-      titles: { optionsSaved: '' }
+      editTitle: 'Opzioni Intestazione',
+      facilityName: 'Nome Struttura',
+      headerLabel: 'Intestazione',
+      headerLine1: 'Linea di Intestazione 1',
+      headerLine2: 'Linea di Intestazione 2',
+      headerLine3: 'Linea di Intestazione 3',
+      logoURL: 'URL del Logo',
+      messages: { headerSaved: 'Le opzioni dell\'intestazione sono state salvate' },
+      newTitle: 'Opzioni Intestazione',
+      titles: { optionsSaved: 'Opzioni Salvate' }
     },
     loadDb: 'Carica DB',
     loaddb: {
-      displayAlertMessage: '',
-      displayAlertTitle: '',
-      editTitle: '',
-      errorDisplayAlertMessage: '',
-      errorDisplayAlertTitle: '',
-      progressMessage: '',
-      progressTitle: ''
+      displayAlertMessage: 'Seleziona il file che vuoi caricare.',
+      displayAlertTitle: 'Seleziona File Da Caricare',
+      editTitle: 'Carica DB',
+      errorDisplayAlertMessage: 'Non è stato possibile importare il database. L\'errore è stato: {{error}}',
+      errorDisplayAlertTitle: 'Errore durante il Caricamento',
+      progressMessage: 'Attendi mentre il tuo database viene caricato.',
+      progressTitle: 'Caricando il Database'
     },
     lookup: {
       aisleLocationList: '',
@@ -102,29 +102,29 @@ export default {
       cptCodeList: '',
       diagnosisList: '',
       edit: { template: {
-        addTitle: '',
-        editTitle: '',
-        labelTitle: '',
-        updateButtonTextAdd: '',
-        updateButtonTextUpdate: ''
+        addTitle: 'Aggiungi Valore',
+        editTitle: 'Modifica Valore',
+        labelTitle: 'Valore',
+        updateButtonTextAdd: 'Aggiungi',
+        updateButtonTextUpdate: 'TODOUpdate'
       } },
       expenseAccountList: '',
-      imagingPricingTypes: '',
+      imagingPricingTypes: 'Listini Radiologia',	// TODO "listini"?!
       incidentDepartments: '',
       inventoryTypes: '',
-      labPricingTypes: '',
+      labPricingTypes: 'Listini Esami di Laboratorio',	// TODO "listini"?!
       pageTitle: '',
-      patientStatusList: '',
-      physicianList: '',
-      procedureList: '',
+      patientStatusList: 'Elenco Stato Pazienti',
+      physicianList: 'Medici',
+      procedureList: 'Procedure',
       procedureLocations: '',
-      procedurePricingTypes: '',
-      radiologists: '',
-      titles: { deleteLookupValue: '' },
-      unitTypes: '',
-      vendorList: '',
+      procedurePricingTypes: 'Listini Procedure',	// TODO "listini"?!
+      radiologists: 'Radiologi',
+      titles: { deleteLookupValue: 'Cancella Valore' },
+      unitTypes: 'Tipi di Unità',
+      vendorList: 'Fornitore',
       visitLocationList: '',
-      visitTypes: '',
+      visitTypes: 'Tipi di visita',
       wardPricingTypes: '',
       warehouseList: ''
     },
@@ -151,8 +151,8 @@ export default {
         addPatient: 'Aggiungere Paziente',
         addPayment: 'Aggiungere Pagamento',
         addPhoto: 'Aggiungere Fotografia',
-        addPricing: '',
-        addPricingProfile: '',
+        addPricing: 'Aggiungi Prezzo',
+        addPricingProfile: 'Aggiungi Listino',
         addProcedure: '',
         addSocialwork: '',
         addVisit: 'Aggiungere Visita',
@@ -168,7 +168,7 @@ export default {
         defineUserRoles: 'Definire Ruoli Utenti',
         deleteAppointment: 'Cancellare Appuntamenti',
         deleteDiagnosis: 'Cancellare Diagnosi',
-        deleteImaging: 'Cancellare Radiologia',
+        deleteImaging: 'Cancellare Esame Radiologico',
         deleteIncident: '',
         deleteIncidentCategory: '',
         deleteInventoryItem: 'Cancellare Articolo Inventariale',
@@ -178,9 +178,9 @@ export default {
         deleteNote: '',
         deletePatient: 'Cancellare Paziente',
         deletePhoto: 'Cancellare Fotografia',
-        deletePricing: '',
-        deletePricingProfile: '',
-        deleteProcedure: '',
+        deletePricing: 'Cancella Prezzo',
+        deletePricingProfile: 'Cancella Listino',
+        deleteProcedure: 'Cancellare Procedura',
         deleteSocialwork: '',
         deleteVisit: 'Cancellare Visita',
         deleteVitals: 'Cancellare Segni Vitali',
@@ -191,7 +191,7 @@ export default {
         generateIncidentReport: '',
         imaging: 'Diagnostica Per Immagini',
         incident: '',
-        inventory: '',
+        inventory: 'Inventario',
         invoices: 'Fatture',
         labs: 'Esami di Laboratorio',
         listPaidInvoices: '',
@@ -203,7 +203,7 @@ export default {
         patients: 'Pazienti',
         pricing: '',
         updateConfig: 'Modificare Configurazioni',
-        visits: ''
+        visits: 'Visite'
       },
       messages: { roleSaved: 'Il ruolo {{roleName}} è stato salvato.' },
       titles: { roleSaved: 'Ruolo Salvato' }
@@ -297,7 +297,7 @@ export default {
   billing: {
     alerts: {
       noInvoiceFound: 'Nessuna fattura trovata.',
-      noPricingItems: '',
+      noPricingItems: 'Nessun prezzo trovato.',
       noPricingProfiles: 'Nessun listino trovato.'
     },
     buttons: {
@@ -310,11 +310,11 @@ export default {
       discountPercentage: 'Sconto percentuale',
       externalInvoiceNumber: 'Fattura Esterna #',
       hmoCom: '',
-      insurance: '',
+      insurance: 'Assicurazione Nazionale',
       paymentProfile: '',
       paymentsDeposits: '',
       pricingPanelOverrides: '',
-      pricingProfile: '',
+      pricingProfile: 'Listino',
       setFee: ''
     },
     messages: {
@@ -337,22 +337,22 @@ export default {
     'delete': 'Cancella',
     dispense: '',
     edit: 'Modifica',
-    filter: '',
-    fulfill: '',
-    'import': '',
-    loadFile: '',
+    filter: 'TODOFiltra',
+    fulfill: 'Compila',
+    'import': 'Importa',
+    loadFile: 'Carica File',
     newItem: '+ nuovo elemento',
     newNote: 'Nuova nota',
     newRequest: 'Nuova richiesta',
     newRequestPlus: '+ nuova richiesta',
     newUser: 'Nuovo Utente',
     ok: 'Ok',
-    remove: '',
-    returnButton: '',
-    search: '',
-    showAll: '',
+    remove: 'Rimuovi',
+    returnButton: 'TODOReturn',
+    search: 'Cerca',
+    showAll: 'Mostra Tutto',
     showFewer: 'Mostra meno',
-    update: ''
+    update: 'TODOUpdate'
   },
   components: {
     chargesByTypeTab: { charges: '' },
@@ -371,7 +371,7 @@ export default {
     },
     patientOrders: {
       buttons: {
-        newImaging: 'Nuova Diagnostica per Immagini',
+        newImaging: 'Nuova Radiologia',
         newLab: 'Nuovo Esame di Laboratorio',
         newMedication: 'Nuovo Farmaco'		// TODO Farmaco o Medicazione?
       },
@@ -476,7 +476,7 @@ export default {
       savedMessage: '',
       savedTitle: ''
     },
-    buttons: { newButton: '+ nuova diagnostica per immagini' },
+    buttons: { newButton: '+ nuovo esame radiologico' },
     labels: {
       addNewVisit: '--Aggiunti Nuova Visita--',
       radiologist: 'Radiologo'
@@ -853,7 +853,7 @@ export default {
     remarks: '',
     requestedBy: 'Richiesto Da',
     requestedOn: 'Richiesto Il',
-    requests: 'Richieste',	// TODO check it's not Richiede
+    requests: 'Richieste',
     result: 'Risultato',
     results: 'Risultati',
     role: 'Ruolo',
@@ -885,8 +885,8 @@ export default {
     deleteTitle: 'Cancella Richiesta',
     editTitle: 'Modifica Richiesta di Esame di Laboratorio',
     labels: {
-      addNewVisit: '',
-      labType: ''
+      addNewVisit: '--Aggiungi Nuova Visita--',
+      labType: 'Tipo di Esame di Laboratorio'
     },
     messages: {
       createNewRecord: '',
@@ -1011,8 +1011,8 @@ export default {
     imaging: {
       names: 'diagnostica per immagini',
       request: {
-        plural: 'richieste di diagnostica per immagini',
-        singular: 'richiesta di diagnostica per immagini'
+        plural: 'richieste di esami radiologici',
+        singular: 'richiesta di esame radiologico'
       }
     },
     incident: { names: {
@@ -1082,7 +1082,7 @@ export default {
     labs: 'Esami di laboratorio',
     medication: 'TODO-Medication',	// TOCHECK Farmaci/Terapia basing on context
     patients: 'Pazienti',
-    scheduling: 'TODO-Pianificazione',	// TODO
+    scheduling: 'Programmazione',
     subnav: {
       actions: 'Azioni',
       addAppointment: 'Aggiungi Appuntamento',
@@ -1091,7 +1091,7 @@ export default {
       appointmentSearch: 'TODO-Cerca Appuntamento',
       appointmentsCalendar: 'Calendario degli Appuntamenti',
       appointmentsThisWeek: 'Appuntamenti Questa Settimana',
-      cashier: '',
+      cashier: 'Cassiere',
       completed: 'Evasi',
       currentIncidents: '',
       customForms: 'Moduli Personalizzati',
@@ -1110,9 +1110,9 @@ export default {
       newUser: 'Nuovo Utente',
       outpatient: 'Paziente Ambulatoriale',
       patientListing: '',
-      priceProfiles: '',
+      priceProfiles: 'Listini',
       prices: 'Prezzi',
-      printHeader: '',
+      printHeader: 'TODO-Intestazione di Stampa (oppure "Stampa Intestazione"?)',
       reports: 'Resoconti',
       requests: 'Richiesti',
       returnMedication: '',
@@ -1142,19 +1142,19 @@ export default {
       newTitle: 'Nuovo Referto d\'Intervento',
       reportSaved: 'Referto Salvato'
     }
-  },
+  },	
   operativePlan: {
     buttons: { completePlan: '' },
     labels: {
-      additionalNotes: '',
+      additionalNotes: 'Note Aggiuntive',
       admissionInstructions: '',
-      caseComplexity: '',
-      completedStatus: '',
-      droppedStatus: '',
-      operationDescription: '',
-      plannedStatus: '',
-      status: '',
-      surgeon: ''
+      caseComplexity: 'Complessità del Caso',
+      completedStatus: 'Eseguito',
+      droppedStatus: 'Saltato',
+      operationDescription: 'Descrizione dell\'Intervento',
+      plannedStatus: 'Pianificato',
+      status: 'Stato',
+      surgeon: 'Chirurgo'
     },
     messages: {
       planCompleted: '',
@@ -1177,7 +1177,7 @@ export default {
       download: 'Scarica',
       editOperativePlan: '',
       newAppointment: 'Nuovo Appuntamento',
-      newImaging: 'Nuova Diagnostica Per Immagini',
+      newImaging: 'Nuovo Esame Radiologico',
       newLab: 'Nuovo Esame di Laboratorio',
       newMedication: 'Nuova Medicazione',
       newPatient: 'Nuovo Paziente',
@@ -1345,32 +1345,32 @@ export default {
       completedBy: '',
       dischargeDate: 'Data Dimissione',
       examiner: '',
-      images: '',
-      labs: '',
-      location: '',
+      images: 'Diagnostica per Immagini',
+      labs: 'Esami di Laboratorio',
+      location: 'Luogo della Visita',
       medications: '',
-      nextAppointment: '',
-      nextAppointments: '',
+      nextAppointment: 'Prossimo Appuntamento',
+      nextAppointments: 'Prossimi Appuntamenti',
       notes: {
-        author: '',
-        date: '',
-        title: ''
+        author: 'Autore',
+        date: 'Data',
+        title: 'Note'
       },
       operativePlan: {
-        description: '',
-        instructions: '',
+        description: 'Descrizione dell\'Intervento',
+        instructions: 'Istruzioni al Ricovero',
         procedures: '',
         title: ''
       },
-      primaryDiagnosis: '',
+      primaryDiagnosis: 'Diagnosi Principale',
       procedures: '',
-      secondaryDiagnosis: '',
-      visitDate: '',
-      visitType: ''
+      secondaryDiagnosis: 'Diagnosi Secondaria',
+      visitDate: 'Data della Visita',
+      visitType: 'Tipo di Visita'
     },
     messages: {
-      'delete': '',
-      saved: ''
+      'delete': 'Sei sicuro/a di voler cancellare questo resoconto?',
+      saved: 'Il resoconto è stato salvato.'
     },
     titles: {
       dischargeReport: '',
